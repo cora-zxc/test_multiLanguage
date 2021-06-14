@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html, body, #root{
+	margin:0 0 0 0;
+  width: 100%;
+  height: 100%;
 }
+select {
+  color:black !important;
+}
+.mainarea{
+	width:90%;
+  height: 100%;
+  padding: 2% 2%;
+  float: right;
+}
+.side{
+	background-color:darkcyan;
+  height: 100%;
+  width: 10%;
+}
+/* @media only screen and (max-width: 480px){
+  .side{
+    display: none;
+  }
+} */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+tr:nth-of-type(odd) {
+  background:#cfd7e7;
+}
+tr:nth-of-type(even) {
+  background:#e8ecf4;
+}
+.ant-table-thead > tr > th {
+  text-align: center !important;
+  background:#4f81bd !important;
+  color: white !important;
+  font-size: 16px;
+}
+.ant-table table {
+  text-align: center !important;
+}
+.mainarea > div:first-child{
+  font-size: 18px;
+}
+.mainarea > div:last-child{
+	padding-top: 3%;
+}
+td, th {
+  border: 1px solid white;
 }
